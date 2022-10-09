@@ -62,77 +62,42 @@
         <h2 class="header-skills">My Top Skills</h2>
         <div class="row d-flex justify-content-center">
           <div class="first-set animate__animated animate__pulse">
-            <img
-              src="icons/icons8-html-5.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"/>
-            <img
-              src="icons/icons8-css3.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"/>
-            <img
-              src="icons/icons8-javascript.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"/>
-            <img
-              src="icons/icons8-bootstrap.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"/>
+            <img src="icons/icons8-html-5.svg" alt="Html5" loading="lazy" class="icon icon-card"/>
+            <img src="icons/icons8-css3.svg" alt="Css3" loading="lazy" class="icon icon-card"/>
+            <img src="icons/icons8-javascript.svg" alt="Javascript" loading="lazy" class="icon icon-card"/>
+            <img src="icons/icons8-bootstrap.svg" alt="Bootstrap5" loading="lazy" class="icon icon-card"/>
           </div>
         </div>
         <div class="row d-flex justify-content-center">
           <div class="second-set animate__animated animate__pulse">
-            <img
-              src="icons/icons8-php.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"/>
-            <img
-              src="icons/icons8-sql.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"/>
-            <img
-              src="icons/icons8-mysql.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"/>
-            <img
-              src="icons/icons8-git.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"/>
+            <img src="icons/icons8-php.svg" alt="Php" loading="lazy" class="icon icon-card"/>
+            <img src="icons/icons8-sql.svg" alt="Sql" loading="lazy" class="icon icon-card"/>
+            <img src="icons/icons8-mysql.svg" alt="Mysql" loading="lazy" class="icon icon-card"/>
+            <img src="icons/icons8-git.svg" alt="git" loading="lazy" class="icon icon-card"/>
           </div>
         </div>
       </div>
 
       <div class="container my-5" id="projects">
-        <div class="row">
+        <div class="row d-flex justify-content-center">
           <h2 class="title-of-projects">Algunos de mis proyectos recientes</h2>
             <div class="projects-container">
               <div class="text-center projects-card">
-                <img
-                  src="images/RiverPlatePage.png" alt="River-Plate" loading="lazy" class="project-pic"/>
+                <img src="images/RiverPlatePage.png" alt="River-Plate" loading="lazy" class="project-pic"/>
                 <h3 class="title-of-project">River Plate Page</h3>
                 <p class="detail-of-Project">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!</p>
                 <a href="https://jorge-73.github.io/Mi-Primera-pagina-web/" target="_blank" class="project-link btn btn-primary">Check it Out</a>
               </div>
               <div class="text-center projects-card">
-                <img
-                  src="images/ParallaxPage.png" alt="Parallax-Page" loading="lazy" class="project-pic"/>
+                <img src="images/ParallaxPage.png" alt="Parallax-Page" loading="lazy" class="project-pic"/>
                 <h3 class="title-of-project">Parallax Page</h3>
                 <p class="detail-of-Project text-center">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!</p>
                 <a href="https://jorge-73.github.io/Parallax-page/" target="_blank" class="project-link btn btn-primary">Check it Out</a>
               </div>
               <div class="text-center projects-card">
-                <img
-                  src="images/MemoryGame.png" alt="Memory-Game" loading="lazy" class="project-pic"/>
+                <img src="images/MemoryGame.png" alt="Memory-Game" loading="lazy" class="project-pic"/>
                 <h3 class="title-of-project">Memory Game</h3>
                 <p class="detail-of-Project text-center">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!</p>
@@ -158,8 +123,7 @@
               </div>
               <div class="control-form">
                 <label for="message">Message</label>
-                <textarea
-                  id="message" cols="60" rows="10" placeholder="Write your message" name="message" class="input-field" required></textarea>
+                <textarea id="message" cols="60" rows="10" placeholder="Write your message" name="message" class="input-field" required></textarea>
               </div>
               <input type="submit" value="Submit" id="submit-btn"  class="submit-btn"/>
             </form>
