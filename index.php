@@ -41,10 +41,71 @@
           </div>  
           <div class="col-md-5 d-flex justify-content-center align-items-center">
             <div class="bio animate__animated animate__shakeX">
-              <h2 class="bio-title">Sobre Mí</h2>
+              <h2 class="bio-title text-center">About Me</h2>
               <p class="bio-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus inventore tempore minus nemo, iste ullam illo laboriosam maiores repudiandae quos!</p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-3">
+        <div class="row">
+          <h2 class="text-center">More About Me</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, cumque est minima ex voluptatem ducimus ad! Vitae numquam aliquid dignissimos, cumque error adipisci accusantium dicta recusandae dolorem omnis iure corrupti?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laborum mollitia quia possimus hic animi ad optio sit sint voluptas inventore, quisquam praesentium est voluptatem eaque libero dicta exercitationem atque?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero soluta eaque obcaecati, ipsa reiciendis dolore eum eligendi earum ipsum iure fuga iste alias magni minus quas hic laboriosam reprehenderit impedit?</p>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <h2 class="header-skills">My Top Skills</h2>
+        <div class="row d-flex justify-content-center">
+          <div class="first-set animate__animated animate__pulse">
+            <img
+              src="icons/icons8-html-5.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"/>
+            <img
+              src="icons/icons8-css3.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"/>
+            <img
+              src="icons/icons8-javascript.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"/>
+            <img
+              src="icons/icons8-bootstrap.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"/>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="icons/icons8-php.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"/>
+            <img
+              src="icons/icons8-sql.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"/>
+            <img
+              src="icons/icons8-mysql.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"/>
+            <img
+              src="icons/icons8-git.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"/>
           </div>
         </div>
       </div>
