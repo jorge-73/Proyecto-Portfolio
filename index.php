@@ -110,8 +110,108 @@
         </div>
       </div>
 
-    
+      <div class="container my-5" id="projects">
+        <div class="row">
+          <h2 class="title-of-projects">Algunos de mis proyectos recientes</h2>
+            <div class="projects-container">
+              <div class="text-center projects-card">
+                <img
+                  src="images/RiverPlatePage.png" alt="River-Plate" loading="lazy" class="project-pic"/>
+                <h3 class="title-of-project">River Plate Page</h3>
+                <p class="detail-of-Project">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!</p>
+                <a href="https://jorge-73.github.io/Mi-Primera-pagina-web/" target="_blank" class="project-link btn btn-primary">Check it Out</a>
+              </div>
+              <div class="text-center projects-card">
+                <img
+                  src="images/ParallaxPage.png" alt="Parallax-Page" loading="lazy" class="project-pic"/>
+                <h3 class="title-of-project">Parallax Page</h3>
+                <p class="detail-of-Project text-center">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!</p>
+                <a href="https://jorge-73.github.io/Parallax-page/" target="_blank" class="project-link btn btn-primary">Check it Out</a>
+              </div>
+              <div class="text-center projects-card">
+                <img
+                  src="images/MemoryGame.png" alt="Memory-Game" loading="lazy" class="project-pic"/>
+                <h3 class="title-of-project">Memory Game</h3>
+                <p class="detail-of-Project text-center">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!</p>
+                <a href="https://jorge-73.github.io/Juego-de-memoria/" target="_blank" class="project-link btn btn-primary">Check it Out</a>
+              </div>
+            </div>
+        </div>
+      </div>
 
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+      <div class="container contact my-5" id="contact">
+        <h2>Contact me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="send-message.php" method="POST" onsubmit="return validate();">
+              <div class="control-form">
+                <label for="name">Name</label>
+                <input
+                  type="text" id="name" name="sender-name" placeholder="Write your name" class="input-field" required/>
+              </div>
+              <div class="control-form">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="sender-email" placeholder="Enter your email" class="input-field" required/>
+              </div>
+              <div class="control-form">
+                <label for="message">Message</label>
+                <textarea
+                  id="message" cols="60" rows="10" placeholder="Write your message" name="message" class="input-field" required></textarea>
+              </div>
+              <input type="submit" value="Submit" id="submit-btn"  class="submit-btn"/>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="social">
+        <a href="https://www.facebook.com/jorge.peralta.1612147" target="_blank"
+          ><img
+            src="icons/icons8-facebook.gif"
+            alt="Facebook"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://www.instagram.com/jorge_a_peralta/" target="_blank"
+          ><img
+            src="icons/icons8-instagram.gif"
+            alt="Instagram"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://www.linkedin.com/in/jorge-peralta-ap/" target="_blank"
+          ><img
+            src="icons/icons8-linkedin-circled.gif"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://github.com/jorge-73" target="_blank"
+          ><img src="icons/icons8-github.gif" alt="Github" class="socicon"/></a>
+      </div>
+
+  <footer>
+    <p class="copy">&copy; Copyright 2022</p>
+      <p class="copy">
+        Built with by
+        <a href="#" target="_blank">Jorge Peralta</a>
+    </p>
+
+    <i class="scroll-up" id="scroll-up">
+      <img src="icons/icons8-upward-arrow.gif" class="socicon up-arrow" alt="scroll-up"/>
+    </i>  
+  </footer>
+
+    <!-- Website scripts -->
+  <script src="js/app.js"></script>
+  <script src="js/validate.js"></script>
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Ion icons scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
