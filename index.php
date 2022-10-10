@@ -9,25 +9,26 @@
     <title>Portafolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#" id="title">Jorge Peralta</a>
+          <img src="icons/favicon-32x32.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top rounded-3 mx-1">
+          <a class="navbar-brand text-start" href="#" id="title">Jorge Peralta</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a href="#aboutme" class="nav-link">About Me</a>
+                <a href="#aboutme" class="nav-link text-light">About Me</a>
               </li>
               <li class="nav-item">
-                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#skills" class="nav-link text-light">Skills</a>
               </li>
               <li class="nav-item">
-                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#projects" class="nav-link text-light">Projects</a>
               </li>
               <li class="nav-item">
-                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#contact" class="nav-link text-light">Contact</a>
               </li>
             </ul>
           </div>
@@ -79,31 +80,48 @@
       </div>
 
       <div class="container my-5" id="projects">
-        <div class="row d-flex justify-content-center">
-          <h2 class="title-of-projects">Algunos de mis proyectos recientes</h2>
-            <div class="projects-container">
-              <div class="text-center projects-card">
-                <img src="images/RiverPlatePage.png" alt="River-Plate" loading="lazy" class="project-pic"/>
-                <h3 class="title-of-project">River Plate Page</h3>
-                <p class="detail-of-Project">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!</p>
-                <a href="https://jorge-73.github.io/Mi-Primera-pagina-web/" target="_blank" class="project-link btn btn-primary">Check it Out</a>
-              </div>
-              <div class="text-center projects-card">
-                <img src="images/ParallaxPage.png" alt="Parallax-Page" loading="lazy" class="project-pic"/>
-                <h3 class="title-of-project">Parallax Page</h3>
-                <p class="detail-of-Project text-center">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!</p>
-                <a href="https://jorge-73.github.io/Parallax-page/" target="_blank" class="project-link btn btn-primary">Check it Out</a>
-              </div>
-              <div class="text-center projects-card">
-                <img src="images/MemoryGame.png" alt="Memory-Game" loading="lazy" class="project-pic"/>
-                <h3 class="title-of-project">Memory Game</h3>
-                <p class="detail-of-Project text-center">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!</p>
-                <a href="https://jorge-73.github.io/Juego-de-memoria/" target="_blank" class="project-link btn btn-primary">Check it Out</a>
+        <h2 class="title-of-projects">Some of my recent projects</h2>
+        <div id="carouselExampleControls" class="carousel slide shadow p-3 mb-5 bg-body rounded-4" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card rounded-4">
+                <img src="images/RiverPlatePage.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">River Plate Page</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://jorge-73.github.io/Mi-Primera-pagina-web/" target="_blank" class="btn btn-primary">Check it Out</a>
+                </div>
               </div>
             </div>
+            <div class="carousel-item">
+              <div class="card rounded-4">
+                <img src="images/ParallaxPage.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Parallax Page</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://jorge-73.github.io/Parallax-page/" target="_blank" class="btn btn-primary">Check it Out</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card rounded-4">
+                <img src="images/MemoryGame.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Memory Game</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://jorge-73.github.io/Juego-de-memoria/" target="_blank" class="btn btn-primary">Check it Out</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
 

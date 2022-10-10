@@ -19,9 +19,8 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
   
-  /* CSS Resets */
 * {
     margin: 0;
     padding: 0;
@@ -29,9 +28,16 @@ html {
 }
 
 #title {
-    color: var(--primary-color);
     font-size: 1.5rem;
 }
+
+.nav-link {
+    transition: var(--transition);
+}
+
+.nav-link:hover {
+    transform: scaleY(1.25);
+} 
 
 .bio {
     width: 25rem;
@@ -86,46 +92,9 @@ html {
     transform: scale(1.1);
 }
 
-.project-pic {
-    width: 65%;
-    height: 60%; 
-}
-
-.projects-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .title-of-projects {
     text-align: center;
     margin-bottom: 1rem;
-}
-
-.project-container {
-    text-align: center;
-    width: 21.875rem;
-    padding: 1rem;
-}
-
-.project-container p {
-    padding: .4rem;
-}
-
-.title-of-project {
-    margin-bottom: var(--bottom-margin);
-}
-
-.detail-of-Project {
-    margin-bottom: var(--bottom-margin);
-}
-
-.projects-card {
-    background-color: #fff;
-    border-radius: 11px;
-    box-shadow: 0 3px 10px var(--primary-shadow);
-    padding: 20px;
-    margin: 10px;
 }
 
 .contact h2 {
@@ -218,13 +187,10 @@ footer {
     height: 3rem;
 }
 
-@media screen and (max-width: 720px) {
-    .projects-container {
-        flex-direction: column;
-    }
-    
-    .project-container {
-        width: 35.875rem;
+@media screen and (max-width: 768px) {
+    .icon {
+        width: 8.875rem;
+        height: 8.25rem;
     }
     
     .contact-form-container {
@@ -237,15 +203,11 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
-    .project-container {
-        width: 18rem;
+    .icon {
+        width: 6.875rem;
+        height: 6.25rem;
     }
-    
     .contact-form-container {
         max-width: 18rem;
-    }
-
-    .projects-card {
-        height: 25rem;
     }
 }
