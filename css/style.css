@@ -37,6 +37,7 @@ html {
 
 .nav-link:hover {
     transform: scaleY(1.25);
+    text-shadow: 7px 3px 11px #FFFFFF;
 } 
 
 .bio {
@@ -166,7 +167,7 @@ html {
     bottom: 50%;
 }
   
-  .socicon {
+.socicon {
     width: 2rem;
     height: 2rem;
 }
@@ -184,9 +185,11 @@ footer {
     cursor: pointer;
 }
   
-  .up-arrow {
+.up-arrow {
     width: 3rem;
     height: 3rem;
+    border: 2px solid #4756df;
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 768px) {
