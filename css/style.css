@@ -113,6 +113,13 @@ html {
     padding: 0.938rem;
     border-radius: 5px;
     box-shadow: 0 3px 10px var(--secondary-shadow);
+    position: relative;
+}
+
+#admin {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .contact-form-container label {
