@@ -199,6 +199,15 @@ footer {
     border-radius: 50%;
 }
 
+#card-login {
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    transition: 2s;
+}
+
+#card-login:hover {
+    box-shadow: 0 3px 10px #fff;
+}
+
 @media screen and (max-width: 768px) {
     .icon {
         width: 8.875rem;

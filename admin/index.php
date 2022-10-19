@@ -24,7 +24,7 @@ if ($_POST) {
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="stylesheet" href="../css/bootstrap.min.css">
-
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -36,8 +36,8 @@ if ($_POST) {
 
             <div class="col-md-4">
                 <br><br><br>
-                <div class="card">
-                    <div class="card-header text-center bg-outline-primary">
+                <div class="card" id="card-login">
+                    <div class="card-header text-center bg-dark">
                         <h4>Login</h4>
                     </div>
                     <div class="card-body">
@@ -55,7 +55,7 @@ if ($_POST) {
                                 <label for="password" class="form-label">Password: </label>
                                 <input type="password" class="form-control" name="password" id="password" placeholder="Enter your password">
                             </div><br>
-                            <input type="submit" name="btn" id="btn" value="Ingresar al Admin" class="btn btn-primary">
+                            <input type="submit" name="btn" id="btn" value="Ingresar al Admin" class="btn btn-outline-dark d-block mx-auto rounded-4">
                         </form>
 
                     </div>
