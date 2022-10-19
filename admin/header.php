@@ -23,6 +23,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="message.php">Message |</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cerrar.php">Exit |</a>
+            </li>
         </ul>
         </div>
     </div>
