@@ -13,7 +13,7 @@ $messageList = mysqli_query($connect, "SELECT * FROM `Contact`");
 <div class="card-header"><h2><b>message list</b></h2></div>
 <?php foreach($messageList as $message) { ?>
 <div class="col-md-4">
-    <div class="card bg-success">
+    <div class="card bg-outline-secondary">
         <div class="card-body">
             <h4 class="card-title"><?php echo $message['name']; ?></h4>
             <h4><?php echo $message['email']; ?></h4>

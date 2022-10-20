@@ -7,7 +7,7 @@ include('header.php');
             <div class="container-fluid py-5">
             <h1 class="display-5 fw-bold">Bienvenido</h1>
             <p class="fs-4">Vamos a administrar nuestros Mensajes en el Sitio Web</p>
-            <a name="" id="" class="btn btn-dark rounded-4" href="seccion/productos.php" role="button">Ver Mensajes</a>
+            <a name="" id="" class="btn btn-dark rounded-4" href="message.php" role="button">see messages</a>
         </div>
     </div>
 
