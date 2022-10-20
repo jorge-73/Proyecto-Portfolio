@@ -49,11 +49,11 @@ if ($_POST) {
                         <form action="index.php" method="post">
                             <div class="form-group">
                                 <label for="usuario" class="form-label">Username: </label>
-                                <input type="text" class="form-control" name="usuario" id="usuario" placeholder="Enter your username">
+                                <input type="text" class="form-control" name="usuario" id="usuario" placeholder="Enter your username" required>
                             </div>
                             <div class="form-group">
                                 <label for="password" class="form-label">Password: </label>
-                                <input type="password" class="form-control" name="password" id="password" placeholder="Enter your password">
+                                <input type="password" class="form-control" name="password" id="password" placeholder="Enter your password" required>
                             </div><br>
                             <input type="submit" name="btn" id="btn" value="Ingresar al Admin" class="btn btn-outline-dark d-block mx-auto rounded-4">
                         </form>
